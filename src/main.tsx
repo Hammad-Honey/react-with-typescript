@@ -1,5 +1,6 @@
 // import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client'
+import Demo from './Demo'
 
 const myElement=(
     <div>
@@ -35,6 +36,8 @@ const myElement=(
 createRoot(document.getElementById('root') as HTMLElement).render(
   <>
   <h1>#Print H1 Using creating root as HTMLElement</h1>
+  <Demo/>
   {myElement}
+  
   </>
 )
