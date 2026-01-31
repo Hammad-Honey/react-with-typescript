@@ -78,3 +78,11 @@ interface User{
 
  const Mydog:Dog={"name":"Alfa",'age':6}
  console.log(Mydog)
+
+ const User1:User={
+    id:'1',
+    Name:"beto"
+
+    
+ }
+ console.log(User1)
