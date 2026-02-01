@@ -86,3 +86,19 @@ interface User{
     
  }
  console.log(User1)
+
+
+ //Void 
+ function returnVoid():void{
+    console.log("This is Void Function");
+ }
+
+ returnVoid();
+const voidfun:  ()=>void=()=> {console.log("Void Arrow function");}
+console.log(voidfun)
+
+//unknown Any-Thype
+function anytype(a:any):any{
+    return a;
+}
+console.log(anytype("alfa"))
