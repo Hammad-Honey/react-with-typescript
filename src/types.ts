@@ -94,6 +94,7 @@ interface User{
  }
 
  returnVoid();
+ //inline function
 const voidfun:  ()=>void=()=> {console.log("Void Arrow function");}
 console.log(voidfun)
 
