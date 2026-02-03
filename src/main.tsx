@@ -2,6 +2,8 @@
 import { createRoot } from 'react-dom/client'
 import Demo from './Demo'
 import './main.css'
+import Hamza from './App'
+
 
 const myElement=(
     <div>
@@ -35,10 +37,16 @@ const myElement=(
 )
 const Fruitslist:string[]=['Apple','Banana','Orange']
 console.log(Fruitslist);
+
+
  
+
+
 
 createRoot(document.getElementById('root') as HTMLElement).render(
   <>
+  <Hamza/>
+ 
   <ul>
     {//*This is Array maping 
     }
@@ -51,6 +59,7 @@ createRoot(document.getElementById('root') as HTMLElement).render(
     </li>
   </ul>
   <h1 className='bg-[#B0C4DE]'>#Print H1 Using creating root as HTMLElement</h1>
+  
   <Demo/>
   {myElement}
   
