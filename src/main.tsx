@@ -33,9 +33,23 @@ const myElement=(
       </table>
     </div>
 )
+const Fruitslist:string[]=['Apple','Banana','Orange']
+console.log(Fruitslist);
+ 
 
 createRoot(document.getElementById('root') as HTMLElement).render(
   <>
+  <ul>
+    {//*This is Array maping 
+    }
+    {Fruitslist.map(
+      fruit=><li>{fruit}</li>
+      )
+    }
+    <li>
+
+    </li>
+  </ul>
   <h1 className='bg-[#B0C4DE]'>#Print H1 Using creating root as HTMLElement</h1>
   <Demo/>
   {myElement}
